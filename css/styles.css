@@ -5,3 +5,25 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+body{
+	background-image: url(../img/texture-light.png);
+	background-repeat: repeat;
+	font-family: 'Open Sans' sans-serif;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.content-box{
+	width: 80%;
+	background-color: #FFF;
+	margin: 0 auto;
+	box-shadow: 1px 1px 3px #555;
+	text-align: center;
+}
+
+.gears{
+	float: left;
+	margin-right: 20px;
+}
+
+
