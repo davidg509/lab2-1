@@ -21,13 +21,18 @@ p{
 	background-color: #FFF;
 	margin: 0 auto;
 	box-shadow: 1px 1px 3px #555;
-	padding: 10px:;
+	padding: 5px;
 }
 
 .gears{
 	float: left;
 	margin: right 20px;
 
+}
+.factory{
+	float:left;
+	margin: right 20px;
+	padding: 5px;
 }
 
 .person{
