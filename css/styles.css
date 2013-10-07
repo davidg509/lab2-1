@@ -13,12 +13,16 @@ body{
 	padding: 10px;
 }
 
+p{
+	padding: 10px;
+}
+
 .content-box{
 	width: 80%;
+	height: 100%;
 	background-color: #FFF;
 	margin: 0 auto;
 	box-shadow: 1px 1px 3px #555;
-	text-align: center;
 }
 
 .gears{
@@ -26,4 +30,62 @@ body{
 	margin-right: 20px;
 }
 
+.shipping{
+	float: right;
+	margin-right: 20px;
+}
 
+.header-content{
+	font-family: 'Boogaloo' sans-serif;
+	font-size: 36px;
+	font color: #116189;
+}
+.footer-content{
+	font-style: italic;
+	font-size: 80%;
+	border-style:solid;
+	border-top:thin double #c8c8c8;
+}
+.motto{
+	font-style: italic;
+	font-size: 120%;
+}
+
+nav ul{
+
+	background-color: #D74710;
+	width: 100%;
+	border-radius: 5px;
+	margin: 0 auto;
+
+}
+
+nav li {
+	font-color: #FFF;
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FF9D45;
+	border-radius: 5px;
+}
+
+em a:link{
+	text-decoration:none;
+}
+em a:visited{
+	text-decoration:underline;
+}
