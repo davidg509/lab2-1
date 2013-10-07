@@ -38,7 +38,7 @@ p{
 .header-content{
 	font-family: 'Boogaloo' sans-serif;
 	font-size: 36px;
-	font color: #116189;
+	font color: #red;
 }
 .footer-content{
 	font-style: italic;
@@ -49,6 +49,12 @@ p{
 .motto{
 	font-style: italic;
 	font-size: 120%;
+}
+
+.aboutpage{
+	font-style: bold;
+	font-color: purple;
+	font size: 36px;
 }
 
 nav ul{
