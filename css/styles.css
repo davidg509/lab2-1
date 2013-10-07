@@ -10,7 +10,6 @@ body{
 	background-repeat: repeat;
 	font-family: 'Open Sans' sans-serif;
 	font-size: 18px;
-	padding: 10px;
 }
 
 p{
@@ -27,7 +26,14 @@ p{
 
 .gears{
 	float: left;
-	margin-right: 20px;
+	margin: right 20px;
+
+}
+
+.person{
+	float: left;
+	margin: right 5px;
+	padding: 20px;
 }
 
 .shipping{
@@ -35,16 +41,33 @@ p{
 	margin-right: 20px;
 }
 
+.headings{
+	font-size: 30px;
+	font-style: bold;
+	color: #116189;
+}
+
+.headings2{
+	font-size: 24px;
+	font-style: bold;
+	color: #116189;
+}
+
 .header-content{
 	font-family: 'Boogaloo' sans-serif;
 	font-size: 36px;
-	font color: #red;
+	color: #116189;
 }
 .footer-content{
 	font-style: italic;
 	font-size: 80%;
 	border-style:solid;
 	border-top:thin double #c8c8c8;
+	padding: 10px;
+}
+.copyright{
+	font-style: italic;
+	font-size: 80%;
 }
 .motto{
 	font-style: italic;
@@ -60,7 +83,7 @@ p{
 nav ul{
 
 	background-color: #D74710;
-	width: 100%;
+	width: 98%;
 	border-radius: 5px;
 	margin: 0 auto;
 
@@ -89,15 +112,7 @@ nav a:hover {
 	border-radius: 5px;
 }
 
-em a:hover{
-	text-decoration: underline;
-}
-
 em a:link{
 	text-decoration: none;
-}
 
-em a:visited{
-	text-decoration: underline;
-}
 
